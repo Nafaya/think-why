@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    "lib": ["es2015"],
+    "lib": ["es2018"],
     // "baseUrl": ".",
     "outDir": "src",
-    "target": "es2015",
+    "target": "es2018",
     "module": "commonjs",
     "moduleResolution": "node",
     "incremental": true,

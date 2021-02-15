@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-thinkwhy-dev-204352-authRole",
+      "UnauthRoleArn": "arn:aws:iam::362756477240:role/amplify-thinkwhy-dev-204352-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::362756477240:role/amplify-thinkwhy-dev-204352-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-thinkwhy-dev-204352-deployment",
+      "UnauthRoleName": "amplify-thinkwhy-dev-204352-unauthRole",
+      "StackName": "amplify-thinkwhy-dev-204352",
+      "StackId": "arn:aws:cloudformation:eu-central-1:362756477240:stack/amplify-thinkwhy-dev-204352/971a4950-6ef4-11eb-be43-02b488480b0c",
+      "AmplifyAppId": "d3uoljrgx3oj45"
+    },
+    "categories": {
+      "function": {
+        "lambdarestapi": {
+          "deploymentBucketName": "amplify-thinkwhy-dev-204352-deployment",
+          "s3Key": "amplify-builds/lambdarestapi-765372567a6531777977-build.zip"
+        }
+      }
+    }
+  }
+}

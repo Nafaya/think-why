@@ -1,0 +1,4 @@
+dist
+node_modules
+coverage
+amplify/backend/function/lambdarestapi/src/**/*.js

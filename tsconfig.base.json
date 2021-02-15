@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "lib": ["es2018", "dom"],
+
+    "outDir": "dist",
+    "target": "es2018",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "incremental": true,
+    "declaration": false,
+
+    "esModuleInterop": true,
+
+    "strict": true,
+    "alwaysStrict": true,
+    "strictBindCallApply": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true
+  }
+}

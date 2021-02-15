@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/subscribers",
+            "lambdaFunction": "lambdarestapi",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/subscribers"
+        }
+    ],
+    "resourceName": "restapi",
+    "apiName": "restapi",
+    "functionArns": [
+        {
+            "lambdaFunction": "lambdarestapi"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-thinkwhy-dev-204352-authRole",
+        "unAuthRoleName": "amplify-thinkwhy-dev-204352-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "lambdarestapi",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

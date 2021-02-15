@@ -1,0 +1,5 @@
+{
+    "tableName": "subscribersDynamo",
+    "partitionKeyName": "id",
+    "partitionKeyType": "S"
+}

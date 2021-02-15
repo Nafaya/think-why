@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "lib": ["es2020"],
+    // "baseUrl": ".",
+    "outDir": "src",
+    "target": "es2018",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "incremental": true,
+    "tsBuildInfoFile": "./tsconfig.tsbuildinfo",
+    // "declaration": true,
+
+    "esModuleInterop": true,
+    // "allowSyntheticDefaultImports": true
+
+    "strict": true,
+    "alwaysStrict": true,
+    "strictBindCallApply": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": false,
+    "baseUrl": "./src",
+    "paths": {
+      "*": ["./node_modules/*"]
+    },
+    "types": []
+  },
+  "include" : ["lib/**/*"]
+}

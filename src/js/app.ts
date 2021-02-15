@@ -39,9 +39,17 @@ function onSubmitForm() {
         showSubscriber(data);
         clearForm();
         hideError();
-    }, (error : Error) => {
+    }).catch((error : Error & { toJSON(): void } & {
+        response? : {
+            data?: {
+                status : number | boolean,
+                error  : { message : string }
+            }
+        }
+    }) => {
         submitting = false;
-        showError(error.message);
+        console.log(error);
+        showError(error?.response?.data?.error?.message ||  error.message);
     })
     return false;
 }
